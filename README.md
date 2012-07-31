@@ -1,4 +1,4 @@
 random-stuff
 ============
 Resume in English
-cv en français.
+cv en anglais.
