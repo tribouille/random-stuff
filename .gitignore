@@ -10,3 +10,13 @@
 *.lai
 *.la
 *.a
+
+# Other git repo
+.git
+
+# Compiled latex files
+*.aux
+*.dvi
+*.pdf
+*.out
+*.log
