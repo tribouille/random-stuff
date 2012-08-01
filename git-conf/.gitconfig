@@ -1,0 +1,8 @@
+[user]
+name = tribou_f
+email = florent.tribouilloy@epitech.net
+[alias]
+ci = commit
+st = status
+br = branch
+co = checkout
