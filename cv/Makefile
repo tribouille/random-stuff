@@ -4,4 +4,4 @@ FR:
 	latex CV_FR.tex
 
 clean:
-	rm *.aux *.log *.out *.dvi
+	rm -f *.aux *.log *.out *.dvi
