@@ -1,6 +1,7 @@
 \documentclass[a4paper,10pt,sans]{moderncv}
-
+\usepackage[english,ngerman]{babel}
 \moderncvtheme[red]{classic}
+
 %\nopagenumbers{}
 \usepackage[utf8]{inputenc}
 \usepackage[scale=0.75]{geometry}
@@ -17,9 +18,9 @@
 %%\extrainfo{additional information}
 %%\photo[64pt][0.4pt]{photo}
 
-\AtBeginDocument{
-     \setlength{\maketitlenamewidth}{9cm}
-}
+\AtBeginDocument{\recomputelengths}
+\setlength{\hintscolumnwidth}{3.1cm}
+\renewcommand{\cvcomputer}[2]{\cvline{#1}{\small#2}}
 
 \begin{document}
 
